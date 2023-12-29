@@ -1,0 +1,53 @@
+.flexbox-outer{
+    display: flex;
+    flex-direction: column;
+   width: 100vw;
+   height: 100vh;
+  
+}
+.upper{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Merriweather', serif;
+}
+.lower{
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+}
+.item1{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width:33vw;
+  
+   
+}
+.item2{
+    height:30%;
+    text-transform: uppercase;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Merriweather', serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:33vw;
+}
+img{
+    width: 150px;
+   }
+   body{
+    background-image:url(./title-page4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
